@@ -1,0 +1,40 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap');
+/* Custom designs */
+@import url(components/banner.css);
+@import url(components/cards.css);
+@import url(components/container.css);
+@import url(components/footer.css);
+@import url(components/button.css);
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: black;
+}
+
+h4 {
+  /*font-family: Poppins;*/
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: 36px;
+}
+
+
+h1, h2, h3, h4 {
+  /*font-family: Poppins;*/
+  font-family: 'Grenze Gotisch', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+  color: white;
+  opacity: 1;
+  color: red;
+}
